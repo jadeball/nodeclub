@@ -58,3 +58,21 @@ $ make test-cov
 ## License
 
 MIT
+
+
+============================================
+/Users/wangyuqiu/WebstormProjects/nodeclub
+
+redis
+/usr/local/bin/redis-server /usr/local/etc/redis.conf
+
+mongodb
+/Users/wangyuqiu/software/mongodb/bin/mongod -dbpath=./db --fork --logpath=./logs/istock.log --logappend&
+
+netstat -nltp|grep mongod
+
+nohup node app.js > myLog.log 2>&1 &
+
+
+
+
