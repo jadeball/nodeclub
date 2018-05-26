@@ -66,24 +66,24 @@ var config = {
   log_dir: path.join(__dirname, 'logs'),
 
   // 邮箱配置
-  mail_opts: {
-    host: 'smtp.126.com',
-    port: 25,
-    auth: {
-      user: 'bifreeclub@126.com',
-      pass: 'Wyq1740355'
-    },
-    ignoreTLS: true,
-  },
+  // mail_opts: {
+  //   host: 'smtp.126.com',
+  //   port: 25,
+  //   auth: {
+  //     user: 'bifreeclub@126.com',
+  //     pass: 'Wyq1740355'
+  //   },
+  //   ignoreTLS: true,
+  // },
 
-    // mail_opts: {
-    //     host: 'smtp.qq.com',
-    //     port: 465,
-    //     auth: {
-    //         user: 'istockweb@qq.com',
-    //         pass: 'ypbxrnpmjkslgeda'
-    //     }
-    // },
+    mail_opts: {
+        host: 'smtp.qq.com',
+        port: 465,
+        auth: {
+            user: 'istockweb@qq.com',
+            pass: 'ypbxrnpmjkslgeda'
+        }
+    },
 
   //weibo app key
   weibo_key: 10000000,
