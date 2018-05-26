@@ -10,9 +10,9 @@ var config = {
 
   get mini_assets() { return !this.debug; }, // 是否启用静态文件的合并压缩，详见视图中的Loader
 
-  name: 'Nodeclub', // 社区名字
-  description: 'CNode：Node.js专业中文社区', // 社区的描述
-  keywords: 'nodejs, node, express, connect, socket.io',
+  name: 'bifree', // 社区名字
+  description: 'bifree：数字货币专业社区', // 社区的描述
+  keywords: 'bifree, 数字货币, 社区, 数字, 货币',
 
   // 添加到 html head 中的信息
   site_headers: [
@@ -55,10 +55,10 @@ var config = {
 
   // RSS配置
   rss: {
-    title: 'CNode：Node.js专业中文社区',
+    title: 'bifree：数字货币专业社区',
     link: 'http://cnodejs.org',
     language: 'zh-cn',
-    description: 'CNode：Node.js专业中文社区',
+    description: 'bifree：数字货币专业社区',
     //最多获取的RSS Item数量
     max_rss_items: 50
   },
