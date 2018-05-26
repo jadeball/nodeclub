@@ -66,15 +66,14 @@ var config = {
   log_dir: path.join(__dirname, 'logs'),
 
   // 邮箱配置
-  mail_opts: {
-    host: 'smtp.126.com',
-    port: 25,
-    auth: {
-      user: 'club@126.com',
-      pass: 'club'
+    mail_opts: {
+        host: 'smtp.qq.com',
+        port: 465,
+        auth: {
+            user: 'istockweb@qq.com',
+            pass: 'ypbxrnpmjkslgeda'
+        }
     },
-    ignoreTLS: true,
-  },
 
   //weibo app key
   weibo_key: 10000000,
