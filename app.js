@@ -45,6 +45,7 @@ var bytes = require('bytes')
 
 // 静态文件目录
 var staticDir = path.join(__dirname, 'public');
+var staticMobileDir = path.join(__dirname,'public/mobile/build');
 // assets
 var assets = {};
 
@@ -82,6 +83,7 @@ if (config.debug) {
   app.use(LoaderConnect.less(__dirname)); // 测试环境用，编译 .less on the fly
 }
 app.use('/public', express.static(staticDir));
+app.use('/cnode', express.static(staticMobileDir));
 app.use('/agent', proxyMiddleware.proxy);
 
 // 通用的中间件
